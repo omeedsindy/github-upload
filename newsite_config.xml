@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Site xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StandupSettings>
+    <SiteName name="Machine Learning" />
+    <Template type="Journal" />
+    <Description>Machine Learning</Description>
+    <UrlCode>machine-learning</UrlCode>
+    <PublishingId>8f1d66a7-7942-4567-8095-5886ec9a42cc</PublishingId>
+    <LiveSiteState>2</LiveSiteState>
+    <SiteParent>JAMA Network</SiteParent>
+    <SiteSortName />
+    <UrlCodePathPrefix>channels</UrlCodePathPrefix>
+    <UseSubDomain>false</UseSubDomain>
+  </StandupSettings>
+  <SiteFeatureSettings>
+    <Content>
+      <UserCommenting enabled="true" />
+    </Content>
+  </SiteFeatureSettings>
+  <SiteTemplateSettings styleType="Journal">
+    <SiteImages>
+      <SiteImage name="ImageDisplay_SiteLogo" url="/Images/machine-learning/jamanetwork.svg" altText="" enabled="true" linkTargetUrl="/" />
+      <SiteImage name="ImageDisplay_Monogram" url="/Images/machine-learning/jn-monogram-machine-learning-rgb.svg" altText="" enabled="true" linkTargetUrl="/" />
+      <SiteImage name="ImageDisplay_Favicon" url="/Images/machine-learning/favicon.ico" altText="" enabled="true" linkTargetUrl="/" />
+      <SiteImage name="ImageDisplay_Favicon192" url="/Images/machine-learning/favicon-192x192.svg" altText="" enabled="true" linkTargetUrl="/" />
+      <SiteImage name="ImageDisplay_AppleTouchIcon180" url="/Images/machine-learning/apple-touch-icon-180x180.svg" altText="" enabled="true" linkTargetUrl="/" />
+    </SiteImages>
+    <SiteCssList>
+      <SiteCss name="SiteCssUrl" url="/CSS/machine-learning/site.css" />
+    </SiteCssList>
+  </SiteTemplateSettings>
+  <PageSettings>
+    <Page name="Home">
+      <Location name="OgTwitterMeta">
+        <Block>
+          <Widget type="OpenGraphandTwitterMeta" instanceName="ChannelHome_OpenGraphandTwitterMeta" />
+        </Block>
+      </Location>
+      <Location name="MainContent">
+        <Block>
+          <Widget type="SiteMenu" instanceName="Home_SiteMenu" />
+          <Widget type="SelfServeContent" instanceName="Channel_Subheading" />
+          <Widget type="SelfServeContent" instanceName="Home_MainContent" />
+        </Block>
+        <Block cssClass="homepage-layout">
+          <Block cssClass="homepage-row clearfix">
+            <Block cssClass="home-wide-col">
+              <Block>
+                <Widget type="SelfServeContent" instanceName="EditorsChoice" />
+                <Widget type="SelfServeContent" instanceName="Home_SS1" />
+                <Widget type="SelfServeContent" instanceName="Home_WidgetTitle1" />
+              </Block>
+              <Block>
+                <Widget type="SelfServeContent" instanceName="Home_SS2" />
+              </Block>
+              <Block cssClass="flex-container">
+                <Widget type="SelectableContentList" instanceName="Home_MainUberContent2" />
+              </Block>
+              <Block>
+                <Widget type="SelfServeContent" instanceName="JAMA_More_Link" />
+              </Block>
+              <Block cssClass="flex-container">
+              <Block cssClass="flex-container">
+                <Widget type="SelectableContentList" instanceName="Home_MainUberContent3" />
+              </Block>
+              <Block>
+                <Widget type="SelfServeContent" instanceName="JAMA_More_Link" />
+              </Block>
+              <Block cssClass="flex-container">
+                <Widget type="SelectableContentListCompact" instanceName="Home_MainUberContent4" />
+              </Block>
+              <Block>
+                <Widget type="SelfServeContent" instanceName="Network_More_Link" />
+              </Block>
+              <Block cssClass="flex-container">
+                <Block>
+                  <Widget type="SelfServeContent" instanceName="More_Articles" />
+                </Block>
+              </Block>
+            </Block>
+            <Block cssClass="home-short-col sidebar journal-sidebar">
+              <Widget type="ConfigurableAd" instanceName="Right_ConfigurableAd_Singlebox" />
+              <Widget type="SelfServeContent" instanceName="MainRightRail_RRAd1" />
+              <Widget type="SelectableContentListCompact" instanceName="Home_MainUberContentRR2" />
+              <Widget type="SelfServeContent" instanceName="MainRightRail_SS2" />
+              <Widget type="EmailListSignUp" instanceName="Channel_EmailListSignUp" />
+              <Widget type="SelfServeContent" instanceName="RightRail_Socials" />
+              <Widget type="SelfServeContent" instanceName="CSS_Widget" />
+            </Block>
+          </Block>
+        </Block>
+      </Location>
+    </Page>
+    <Page name="Archive">
+      <Location name="OgTwitterMeta">
+        <Block>
+          <Widget type="OpenGraphandTwitterMeta" instanceName="ChannelArchive_OpenGraphandTwitterMeta" />
+        </Block>
+      </Location>
+      <Location name="MainContent">
+        <Block cssClass="archive-row clearfix">
+          <Block cssClass="archive-content">
+            <Widget type="SelfServeContent" instanceName="Archive_SS1" />
+            <Widget type="SelfServeContent" instanceName="Archive_SS2" />
+            <Block cssClass="flex-container">
+              <Widget type="SelectableContentList" instanceName="Home_MainUberContent2" />
+            </Block>
+            <Block cssClass="flex-container">
+              <Widget type="SelectableContentList" instanceName="Home_MainUberContent3" />
+            </Block>
+
+            <Block cssClass="flex-container">
+              <Widget type="SelectableContentListCompact" instanceName="Home_MainUberContent4" />
+            </Block>
+          </Block>
+          <Block cssClass="sidebar journal-sidebar">
+            <Widget type="SelfServeContent" instanceName="Archive_RightRailTop" />
+            <Widget type="SelectableContentListCompact" instanceName="Home_MainUberContentRR2" />
+            <Widget type="EmailListSignUp" instanceName="Channel_EmailListSignUp" />
+            <Widget type="SelfServeContent" instanceName="RightRail_Socials" />
+            <Widget type="SelfServeContent" instanceName="Contributors_Widget" />
+            <Widget type="SelfServeContent" instanceName="CSS_Widget" />
+          </Block>
+        </Block>
+      </Location>
+      <Location name="Bottom">
+        <Block>
+          <Widget type="SelfServeContent" instanceName="ArchiveBottom_SS1" />
+        </Block>
+        <Block>
+          <Widget type="SelfServeContent" instanceName="ArchiveBottom_SS2" />
+        </Block>
+      </Location>
+    </Page>
+    <Page name="GeneralConfigs">
+      <Location name="PageMeta">
+        <Block>
+          <Widget type="PageMetadata" instanceName="JAMA_Home_Metadata" />
+          <Widget type="PageMetadata" instanceName="JAMA_Archive_Metadata" />
+        </Block>
+      </Location>
+      <Location name="ArchiveBrowse">
+        <Block>
+          <Widget type="ArchiveArticleBrowseResults" instanceName="AMA_ArchiveArticleBrowseResults" />
+        </Block>
+      </Location>
+    </Page>
+    <Page name="Footer">
+      <Location name="MainContent">
+        <Block>
+          <Widget type="SelfServeContent" instanceName="Channel_Footer_Left" />
+        </Block>
+        <Block>
+          <Widget type="SelfServeContent" instanceName="Channel_Footer_LowerRight" />
+        </Block>
+      </Location>
+    </Page>
+    <Page name="Header">
+      <Location name="MainContent">
+        <Block cssClass="tablet-up">
+          <Widget type="SelfServeContent" instanceName="ChannelsBanner" />
+        </Block>
+      </Location>
+    </Page>
+  </PageSettings>
+  <WidgetSettings>
+    <WidgetSetting type="ConfigurableAd" instanceName="Right_ConfigurableAd_Singlebox" controllerName="AMA">
+      <Setting name="IsAsyncAd" value="true" type="RuntimeSetting" />
+      <Setting name="AdType" value="ChannelSinglebox" type="RuntimeSetting" />
+      <Setting name="AdPosition" value="mid" type="RuntimeSetting" />
+      <Setting name="AdSection" value="home" type="RuntimeSetting" />
+      <Setting name="NonCustomersOnly" value="false" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Channel_Subheading" controllerName="Content">
+      <Setting name="selfServeContentId" value="A collection of articles and resources on clinical applications of machine learning" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Home_MainContent" controllerName="Content">
+      <Setting name="selfServeContentId" value="Home_MainContent" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Home_Hero" controllerName="Content">
+      <Setting name="selfServeContentId" value="Home_Hero" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Home_BannerMid" controllerName="Content">
+      <Setting name="selfServeContentId" value="Home_BannerMid" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="EditorsChoice" controllerName="Content">
+      <Setting name="selfServeContentId" value="https://jamanetwork.com/journals/jama/fullarticle/2754798" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Home_SS1" controllerName="Content">
+      <Setting name="selfServeContentId" value="Home_SS1" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Home_SS2" controllerName="Content">
+      <Setting name="selfServeContentId" value="Home_SS2" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Home_WidgetTitle1" controllerName="Content">
+      <Setting name="selfServeContentId" value="Home_WidgetTitle1" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Home_RightRail" controllerName="Content">
+      <Setting name="selfServeContentId" value="Home_RightRail" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="MainRightRail_RRAd1" controllerName="Content">
+      <Setting name="selfServeContentId" value="MainRightRail_RRAd1" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="MainRightRail_SS2" controllerName="Content">
+      <Setting name="selfServeContentId" value="MainRightRail_SS2" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="PageMetadata" instanceName="JAMA_Home_Metadata" controllerName="AMA">
+      <Setting name="Title" value="Home | Machine Learning | JAMA Network " type="RuntimeSetting" />
+      <Setting name="Description" value="Explore clinical applications of machine learning in the JAMA Network, including research and opinion about the use of deep learning and neural networks for clinical image analysis, natural language processing, EHR data mining, and more" type="RuntimeSetting" />
+      <Setting name="IncludeSiteNameInTitles" value="false" type="RuntimeSetting" />
+      <Setting name="UseSeoTitles" value="false" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="ChannelsBanner" controllerName="Content">
+      <Setting name="SelfServeContentId" value="ChannelsBanner" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Archive_SS1" controllerName="Content">
+      <Setting name="selfServeContentId" value="Archive_SS1" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Archive_SS2" controllerName="Content">
+      <Setting name="selfServeContentId" value="Archive_SS2" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="ArchiveBottom_SS1" controllerName="Content">
+      <Setting name="selfServeContentId" value="ArchiveBottom_SS1" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="ArchiveBottom_SS2" controllerName="Content">
+      <Setting name="selfServeContentId" value="ArchiveBottom_SS2" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Archive_RightRail" controllerName="Content">
+      <Setting name="selfServeContentId" value="Archive_RightRail" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Archive_BottomRail" controllerName="Content">
+      <Setting name="selfServeContentId" value="Archive_BottomRail" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Archive_Bottom" controllerName="Content">
+      <Setting name="selfServeContentId" value="Archive_Bottom" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Article_Bottom" controllerName="Content">
+      <Setting name="selfServeContentId" value="Article_Bottom" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Article_RightRail" controllerName="Content">
+      <Setting name="selfServeContentId" value="Article_RightRail" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Channel_Footer_Left" controllerName="Content">
+      <Setting name="selfServeContentId" value="Channel_Footer_Left" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Channel_Footer_LowerRight" controllerName="Content">
+      <Setting name="selfServeContentId" value="Channel_Footer_LowerRight" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="RightRail_Socials" controllerName="Content">
+      <Setting name="selfServeContentId" value="RightRail_Socials" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="JAMA_More_Link" controllerName="Content">
+      <Setting name="selfServeContentId" value="JAMA_More_Link" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Network_More_Link" controllerName="Content">
+      <Setting name="selfServeContentId" value="Network_More_Link" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="More_Articles" controllerName="Content">
+      <Setting name="selfServeContentId" value="_More_Articles" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="PageMetadata" instanceName="JAMA_Archive_Metadata" controllerName="AMA">
+      <Setting name="Title" value="Home | Machine Learning | JAMA Network" type="RuntimeSetting" />
+      <Setting name="Description" value="Explore clinical applications of machine learning in the JAMA Network, including research and opinion about the use of deep learning and neural networks for clinical image analysis, natural language processing, EHR data mining, and more" type="RuntimeSetting" />
+      <Setting name="IncludeSiteNameInTitles" value="false" type="RuntimeSetting" />
+      <Setting name="UseSeoTitles" value="false" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="ArchiveArticleBrowseResults" instanceName="AMA_ArchiveArticleBrowseResults" controllerName="AMA">
+      <Setting name="Title" value="Archive" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="EmailListSignUp" instanceName="Channel_EmailListSignUp" controllerName="AMA">
+      <Setting name="JournalName" value="JAMA Network" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelfServeContent" instanceName="Contributors_Widget" controllerName="Content">
+      <Setting name="selfServeContentId" value="Contributors_Widget" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="ArchiveResults" instanceName="Archive_ArchiveResults" controllerName="AMA" />
+    <WidgetSetting type="SiteMenu" instanceName="Home_SiteMenu" controllerName="AMA">
+      <Setting name="SiteMenuTypeId" value="2" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="OpenGraphandTwitterMeta" instanceName="ChannelHome_OpenGraphandTwitterMeta" controllerName="AMA">
+      <Setting name="OgTitle" value="Clinical applications of machine learning from the JAMA Network" type="RuntimeSetting" />
+      <Setting name="OgDescription" value="Explore clinical applications of machine learning in the JAMA Network, including research and opinion about the use of deep learning and neural networks for clinical image analysis, natural language processing, EHR data mining, and more" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="OpenGraphandTwitterMeta" instanceName="ChannelArchive_OpenGraphandTwitterMeta" controllerName="AMA">
+      <Setting name="OgTitle" value="Clinical applications of machine learning from the JAMA Network" type="RuntimeSetting" />
+      <Setting name="OgDescription" value="Explore clinical applications of machine learning in the JAMA Network, including research and opinion about the use of deep learning and neural networks for clinical image analysis, natural language processing, EHR data mining, and more" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelectableContentList" instanceName="Home_MainUberContent1A" controllerName="AMA">
+      <Setting name="AdvancedQuery" value="ArticleTypeDisplayName:Research AND Categories:&quot;Health Informatics&quot; AND (JournalDisplayName:&quot;JAMA&quot; OR JournalDisplayName:&quot;JAMA Internal Medicine&quot;" type="RuntimeSetting"/>
+      <Setting name="NumberOfResults" value="6" type="RuntimeSetting" />
+      <Setting name="Title.Text" value="RESEARCH" type="RuntimeSetting" />
+      <Setting name="CategoriesEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="CategoriesMaxNumber" value="4" type="RuntimeSetting" />
+      <Setting name="SolrFieldsToIncludeInCategories" value="Categories" type="RuntimeSetting" />
+      <Setting name="JournalNameEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="AuthorsEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="ArticleTypeEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="VerticalListOrientation" value="true" type="RuntimeSetting" />
+      <Setting name="StyleType" value="Spotlight" type="RuntimeSetting" />
+      <Setting name="BorderAccentColor" value="primary" type="RuntimeSetting" />
+      <Setting name="NeedCategoryLinks" value="true" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelectableContentList" instanceName="Home_MainUberContent2" controllerName="AMA">
+      <Setting name="AdvancedQuery" value="ArticleTypeDisplayName:Review AND Categories:&quot;Health Informatics&quot; AND (JournalDisplayName:&quot; OR JournalDisplayName:&quot;JAMA Internal Medicine&quot;" type="RuntimeSetting" />
+      <Setting name="Title.Text" value="REVIEW" type="RuntimeSetting" />
+      <Setting name="NumberOfResults" value="8" type="RuntimeSetting" />
+      <Setting name="CategoriesEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="CategoriesMaxNumber" value="4" type="RuntimeSetting" />
+      <Setting name="SolrFieldsToIncludeInCategories" value="Categories" type="RuntimeSetting" />
+      <Setting name="JournalNameEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="AuthorsEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="ArticleTypeEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="VerticalListOrientation" value="false" type="RuntimeSetting" />
+      <Setting name="ShowHairlineAbove" value="true" type="RuntimeSetting" />
+      <Setting name="BrowseAllEnable" value="false" type="RuntimeSetting" />
+      <Setting name="BrowseAllLabel" value="Expand" type="RuntimeSetting" />
+      <Setting name="BorderAccentColor" value="secondary" type="RuntimeSetting" />
+      <Setting name="NeedCategoryLinks" value="false" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelectableContentList" instanceName="Home_MainUberContent3" controllerName="AMA">
+      <Setting name="AdvancedQuery" value="ArticleTypeDisplayName:Review AND Categories:&quot;Health Informatics&quot; AND (JournalDisplayName:&quot; OR JournalDisplayName:&quot;JAMA Internal Medicine&quot;" type="RuntimeSetting" />
+      <Setting name="Title.Text" value="OPINION" type="RuntimeSetting" />
+      <Setting name="NumberOfResults" value="8" type="RuntimeSetting" />
+      <Setting name="CategoriesEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="CategoriesMaxNumber" value="4" type="RuntimeSetting" />
+      <Setting name="SolrFieldsToIncludeInCategories" value="Categories" type="RuntimeSetting" />
+      <Setting name="JournalNameEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="AuthorsEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="ArticleTypeEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="VerticalListOrientation" value="false" type="RuntimeSetting" />
+      <Setting name="ShowHairlineAbove" value="true" type="RuntimeSetting" />
+      <Setting name="BrowseAllEnable" value="false" type="RuntimeSetting" />
+      <Setting name="BrowseAllLabel" value="Expand" type="RuntimeSetting" />
+      <Setting name="BorderAccentColor" value="secondary" type="RuntimeSetting" />
+      <Setting name="NeedCategoryLinks" value="false" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelectableContentListCompact" instanceName="Home_MainUberContent4" controllerName="AMA">
+      <Setting name="Title.Text" value="SPECIALTY MACHINE LEARNING" type="RuntimeSetting" />
+      <Setting name="LeftColumnAdvancedQuery" value="(Categories:Cardiology AND Categories:&quot;Health Informatics&quot;)" type="RuntimeSetting" />
+      <Setting name="RightColumnAdvancedQuery" value="(Categories:Dermatology AND Categories:&quot;Health Informatics&quot;)" type="RuntimeSetting" />
+      <Setting name="LeftHeading" value="Cardiology" type="RuntimeSetting" />
+      <Setting name="RightHeading" value="Dermatology" type="RuntimeSetting" />
+      <Setting name="NumberOfResults" value="4" type="RuntimeSetting" />
+      <Setting name="CategoriesEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="CategoriesMaxNumber" value="3" type="RuntimeSetting" />
+      <Setting name="SolrFieldsToIncludeInCategories" value="Categories" type="RuntimeSetting" />
+      <Setting name="JournalNameEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="AuthorsEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="ArticleTypeEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="SeeMoreNumToDisplay" value="2" type="RuntimeSetting" />
+      <Setting name="BorderAccentColor" value="secondary" type="RuntimeSetting" />
+      <Setting name="ShowHairlineAbove" value="true" type="RuntimeSetting" />
+      <Setting name="BrowseAllEnable" value="false" type="RuntimeSetting" />
+      <Setting name="BrowseAllLabel" value="Expand" type="RuntimeSetting" />
+      <Setting name="NeedCategoryLinks" value="true" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelectableContentListCompact" instanceName="Home_MainUberContentRR1" controllerName="AMA">
+      <Setting name="AdvancedQuery" value="ArticleTypeDisplayName:News AND JournalDisplayName:&quot;JAMA&quot; AND &quot;Hypertension&quot;" type="RuntimeSetting" />
+      <Setting name="Title.Text" value="IN THE NEWS" type="RuntimeSetting" />
+      <Setting name="NumberOfResults" value="2" type="RuntimeSetting" />
+      <Setting name="CategoriesEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="SolrFieldsToIncludeInCategories" value="Categories" type="RuntimeSetting" />
+      <Setting name="JournalNameEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="AuthorsEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="ArticleTypeEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="SeeMoreNumToDisplay" value="2" type="RuntimeSetting" />
+      <Setting name="BrowseAllLabel" value="Expand" type="RuntimeSetting" />
+      <Setting name="ShowHairlineAbove" value="true" type="RuntimeSetting" />
+      <Setting name="ShowHairlineBelow" value="true" type="RuntimeSetting" />
+      <Setting name="NeedCategoryLinks" value="true" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelectableContentListCompact" instanceName="Home_MainUberContentRR2" controllerName="AMA">
+      <Setting name="AdvancedQuery" value="(ContentType:Video OR ContentType:Audio) AND Categories:(&quot;Health Informatics&quot;)" type="RuntimeSetting" />
+      <Setting name="Title.Text" value="MULTIMEDIA" type="RuntimeSetting" />
+      <Setting name="NumberOfResults" value="4" type="RuntimeSetting" />
+      <Setting name="CategoriesEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="SolrFieldsToIncludeInCategories" value="Categories" type="RuntimeSetting" />
+      <Setting name="JournalNameEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="AuthorsEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="ArticleTypeEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="ShowHairlineAbove" value="true" type="RuntimeSetting" />
+      <Setting name="ShowHairlineBelow" value="true" type="RuntimeSetting" />
+      <Setting name="NeedCategoryLinks" value="true" type="RuntimeSetting" />
+      <Setting name="SeeMoreNumToDisplay" value="2" type="RuntimeSetting" />
+      <Setting name="BrowseAllEnable" value="true" type="RuntimeSetting" />
+      <Setting name="BrowseAllLabel" value="Expand" type="RuntimeSetting" />
+    </WidgetSetting>
+  </WidgetSettings>
+  <NavigationSettings>
+    <NavBar name="header">
+      <NavItem label="Home" link="https://jamanetwork.com" />
+      <NavItem label="JN Learning / CME" link="https://edhub.ama-assn.org/jn-learning" />
+      <NavItem label="Subscribe" link="https://store.jamanetwork.com" />
+    </NavBar>
+    <NavBar name="HeaderPreview">
+      <NavItem label="Content" link="#">
+        <NavItem label="Home" link="https://jamanetwork.com" />
+        <NavItem label="JN Learning / CME" link="https://edhub.ama-assn.org/jn-learning" />
+        <NavItem label="Subscribe" link="https://store.jamanetwork.com" />
+      </NavItem>
+    </NavBar>
+  </NavigationSettings>
+  <GlobalSettings>
+    <Settings>
+      <Setting name="Social.AddThisPubId" value="ra-53346900644c40ac" type="ScmGlobalSetting" />
+      <Setting name="Social.TwitterSiteTag" value="@jama_current" type="ScmGlobalSetting" />
+      <Setting name="Url.CdnSecureUrl" value="//cdn.jamanetwork.com" type="ScmGlobalSetting" />
+      <Setting name="Url.CdnUrl" value="//cdn.jamanetwork.com" type="ScmGlobalSetting" />
+      <Setting name="FacebookPageIds" value="87087958340,122228711814384,1648414928738217,117506346528,97538728726,114116793520,100679858757,759822190741773,100265333750,234770525256,98784919862,120829458202,124842870398,110245330325636" type="ScmGlobalSetting" />
+      <Setting name="PageSpecificAdsSuppression" value="Home|interstitial;Archive|riser,interstitial,anchorboard,leaderboard;Article|riser,leaderboard,anchorboard,interstitial" type="ScmGlobalSetting" />
+      <Setting name="AdConfigurationSettings.GptSiteName" value="ama.channel.machinelearning" type="ScmGlobalSetting" />
+    </Settings>
+    <EnvironmentOverrides />
+  </GlobalSettings>
+  <SiteContainedContentSelectionRule />
+  <DownStreamDeposits />
+  <BookPublishers />
+</Site>
+
+
+
+     <!--NOT NEEDED WIDGETS
+    <WidgetSetting type="SelectableContentList" instanceName="Home_MainUberContent1B" controllerName="AMA">
+      <Setting name="AdvancedQuery" value="ContentType:Article AND JournalDisplayName:&quot;JAMA&quot; AND ArticleTypeTitle:&quot;Editorial&quot; AND Categories:(&quot;Hypertension&quot;)" type="RuntimeSetting" />
+      <Setting name="NumberOfResults" value="1" type="RuntimeSetting" />
+      <Setting name="CategoriesEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="CategoriesMaxNumber" value="4" type="RuntimeSetting" />
+      <Setting name="SolrFieldsToIncludeInCategories" value="Categories" type="RuntimeSetting" />
+      <Setting name="JournalNameEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="AuthorsEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="ArticleTypeEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="VerticalListOrientation" value="true" type="RuntimeSetting" />
+      <Setting name="StyleType" value="Spotlight" type="RuntimeSetting" />
+      <Setting name="BorderAccentColor" value="primary" type="RuntimeSetting" />
+      <Setting name="NeedCategoryLinks" value="true" type="RuntimeSetting" />
+    </WidgetSetting>
+    <WidgetSetting type="SelectableContentList" instanceName="Home_MainUberContent1C" controllerName="AMA">
+      <Setting name="AdvancedQuery" value="ContentType:Article AND JournalDisplayName:&quot;JAMA&quot; AND ArticleTypeTitle:&quot;Special Communication&quot; AND Categories:(&quot;Hypertension&quot;)" type="RuntimeSetting" />
+      <Setting name="NumberOfResults" value="1" type="RuntimeSetting" />
+      <Setting name="CategoriesEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="CategoriesMaxNumber" value="4" type="RuntimeSetting" />
+      <Setting name="SolrFieldsToIncludeInCategories" value="Categories" type="RuntimeSetting" />
+      <Setting name="JournalNameEnabled" value="false" type="RuntimeSetting" />
+      <Setting name="AuthorsEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="ArticleTypeEnabled" value="true" type="RuntimeSetting" />
+      <Setting name="VerticalListOrientation" value="false" type="RuntimeSetting" />
+      <Setting name="StyleType" value="Spotlight" type="RuntimeSetting" />
+      <Setting name="BorderAccentColor" value="primary" type="RuntimeSetting" />
+      <Setting name="NeedCategoryLinks" value="true" type="RuntimeSetting" />
+    </WidgetSetting>
+    
+    NOT NEEDED WIDGETS--> 
